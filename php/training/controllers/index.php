@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
     <?php
     $data =[
         [
@@ -43,11 +34,10 @@
         return $filterdData;
     }
 
-    foreach (filterData($data, function($item){
-        return $item['age'] <= 30;
-    }) as $item) {
-        echo "<p>Name: ". $item['name']. ", Age: ". $item['age']. ", City: ". $item['city']. "</p>";
-    }
-    ?>
+    $heading = "Home";
 
-</html>
+
+
+    // dd($_SERVER );
+
+    require "views/index.file.php";
