@@ -8,5 +8,5 @@ function dd($vlaue){
 }
 
 function urlIs($value){
-    return str_ends_with( $_SERVER['REQUEST_URI'],$value);
+    return $_SERVER['REQUEST_URI'] === $value;
 }
