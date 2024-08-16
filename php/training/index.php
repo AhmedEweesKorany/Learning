@@ -7,4 +7,4 @@ require "router.php";
 
 
 
-dd($db);
+// dd($db);

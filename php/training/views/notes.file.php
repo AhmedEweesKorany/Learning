@@ -25,12 +25,12 @@
 
 <h1 class="my-10">    Your notes is --
 </h1>    <?php foreach ($notes as $note) {
+        $note['body'] = htmlspecialchars($note['body']);
         # code...
         echo "<a href='/note?id={$note['id']}' class='text-blue-500 hover:underline'><li class='text-2xl'>$note[body]</li></a>";
     } ?>
     <div class="mt-10">
-    <a href="about.php" class="text-red-500 bg-blue-400 p-4 ">Go To About Page</a>
-
+    <a href="notes-create" class="text-white bg-green-400 p-4 ">Create A New Note</a>
     </div>
     </div>
   </main>
