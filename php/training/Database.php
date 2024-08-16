@@ -19,9 +19,28 @@ class Database {
         }
     }
 
+    public $statement;
     public function query($query,$params=[]) {
-        $statement = $this->pdo->prepare($query);
-        $statement->execute($params);
-        return $statement;
+        $this->statement = $this->pdo->prepare($query);
+        $this->statement->execute($params);
+        return $this;
+    } 
+    public function fetchOrAbort($userID){
+        $result = $this->statement->fetch();
+        if (!$result) {
+            abort(Response::NOT_FOUND);
+        }elseif($result['user_id'] !== $userID){
+            abort(Response::FORBIDDEN);
+        }
+        return $result;
+    }
+
+    public function fetchAllOrAbort(){
+        $result =  $this->statement->fetchAll();
+        if (!$result) {
+            abort(Response::NOT_FOUND);
+        }
+
+        return $result;
     }
 }
