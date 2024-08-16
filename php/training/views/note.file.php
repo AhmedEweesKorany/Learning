@@ -15,7 +15,7 @@
 
   <header class="bg-white shadow">
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-      <h1 class="text-3xl font-bold tracking-tight text-gray-900">All Notes </h1>
+      <h1 class="text-3xl font-bold tracking-tight text-gray-900">Single Notes (<?php echo $note['body'] ?>) </h1>
 
     </div>
   </header>
@@ -24,10 +24,8 @@
       <!-- Your content -->
 
 <h1 class="my-10">    Your notes is --
-</h1>    <?php foreach ($notes as $note) {
-        # code...
-        echo "<a href='/note?id={$note['id']}' class='text-blue-500 hover:underline'><li class='text-2xl'>$note[body]</li></a>";
-    } ?>
+</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae ad unde quidem doloribus. Ducimus reprehenderit amet architecto hic quas expedita?</p>
     <div class="mt-10">
     <a href="about.php" class="text-red-500 bg-blue-400 p-4 ">Go To About Page</a>
 

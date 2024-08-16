@@ -5,6 +5,7 @@ $routes = [
     "/" => "controllers/index.php",
     "/index" => "controllers/index.php",
     '/notes'=> "controllers/notes.php",
+    "/note"=> "controllers/note.php",
     "/about" => "controllers/about.php",
     "/contact" => "controllers/contact.php",
 ];
@@ -12,6 +13,7 @@ $routes = [
 function abort($code){
     http_response_code($code);
     require "controllers/{$code}.php";
+    die();
 }
 
 
