@@ -1,4 +1,5 @@
 <?php
+require "validator.php";
 $config = require "config.php";
 $db  = new Database($config['database']);
 $curUserId = 3;
@@ -8,10 +9,11 @@ if($_POST){
 $body = $_POST['note'];
 // dd($body[0]);
 $err = [];
-if(empty($body)){
+
+if(!Validator::string($body)){
     $err['body']="Note is empty";
-}elseif(strlen($body) > 1000){
-    $err['body']="Note is too long";
+}elseif(!Validator::string($body,20,100)){
+  strlen($body) > 100 ?  $err['body']="Note is too long (should be 100 char at most)" : $err['body']="Note is too short (should be 20 char at least)";
 }
 
 if(empty($err)){
@@ -22,4 +24,4 @@ if(empty($err)){
     header('location: /notes');
 }
 }
-require "views/notes-create.file.php";
+require "views/notes/create.file.php";

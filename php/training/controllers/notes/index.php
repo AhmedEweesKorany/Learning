@@ -8,4 +8,4 @@ $notes = $db->query("SELECT * FROM notes where user_id = 3")->fetchAllOrAbort();
 if(!$notes){
     abort(404);
 }
-require "views/notes.file.php";
+require "views/notes/index.file.php";

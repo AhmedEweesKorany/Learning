@@ -2,7 +2,7 @@
 <html lang="en" class="h-full bg-gray-100">
 
 <head>
-<?php require "partials/links.php"; ?>
+<?php require __DIR__ . "/../partials/links.php"; ?>
 
 
 </head>
@@ -10,7 +10,7 @@
 <body class="h-full">
 
 <div class="min-h-full">
-<?php require "partials/nav.php"; ?>
+<?php require __DIR__ . "/../partials/nav.php"; ?>
 
 
   <header class="bg-white shadow">
