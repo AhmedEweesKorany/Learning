@@ -25,7 +25,7 @@
 - You shouldn't write unneccessary steps.
 - What ever steps you write, it should do something in the procedure.
 
-### summary
+### Key Takeaways:
 ![summary](image.png)
 
 ## 1.3 How to write and analyze an algorithm?
@@ -61,3 +61,42 @@ function swap($a, $b){
 ### 1.3.2 How to analyze an algorithm?
 - Time Complexity
 - Space Complexity
+- N/W
+- Power Consumption
+- CPU Usage (CPU Register)
+
+### ---Time Analysis for pervious example
+- **every statement in the algorithm takes 1 unit of time.**
+``` php 
+
+function swap($a, $b){
+    $x = $a; // take 1
+    $a = $b; // take 1
+    $b = $x; // take 1
+    return $a, $b; // take 1
+    // so the total time is 3 unit of time.
+    // t(n) = 3
+    // o(1) ===> which indicates that the time is constant.
+};
+```
+- **Note That: When We Write a mathmatical equation , the time unit is depend on the problem. let me give you an example.**
+``` 
+
+x = 5 * a + 6 * b ===> here it will takes 4 unit of time.
+```
+### --- Space Analysis for pervious example
+- **every variable in the algorithm takes 1 unit of space.**
+``` php
+function swap($a, $b){
+    $x = $a; // take 1
+    $a = $b; // take 1
+    $b = $x; // take 1
+    return $a, $b; 
+    // so the total space is 3 unit of space.
+    // s(n) = 3
+    // o(1) ===> which indicates that the space is constant.
+}
+```
+
+## Key Takeaways:
+![Summary](image-1.png)
