@@ -1,5 +1,4 @@
-
-    <?php
+<?php
     $data =[
         [
             'name' => 'John Doe',
@@ -40,4 +39,4 @@
 
     // dd($_SERVER );
 
-    require "views/index.file.php";
+    return view("index.file.php");

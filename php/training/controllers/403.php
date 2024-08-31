@@ -1,2 +1,2 @@
 <?php
-require "views/403.file.php";
+return view("403.file.php");

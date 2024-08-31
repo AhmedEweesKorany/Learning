@@ -1,4 +1,3 @@
 <?php
 
-dd($_POST);
-require "views/about.file.php";
+return view("about.file.php");

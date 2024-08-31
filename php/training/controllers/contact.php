@@ -1,2 +1,2 @@
 <?php
-require "views/contact.file.php";
+return view("contact.file.php");

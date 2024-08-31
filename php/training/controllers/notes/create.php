@@ -1,6 +1,6 @@
 <?php
-require "validator.php";
-$config = require "config.php";
+require BASE_PATH."validator.php";
+$config = require BASE_PATH."config.php";
 $db  = new Database($config['database']);
 $curUserId = 3;
 
@@ -24,4 +24,6 @@ if(empty($err)){
     header('location: /notes');
 }
 }
-require "views/notes/create.file.php";
+
+
+return view ("notes/create.file.php");
