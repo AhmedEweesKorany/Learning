@@ -10,7 +10,7 @@ class User{
 
     // private $name = 'ahmed'; // won't be access from anywhere else 
     // protected $name = 'ahmed'; // can be access by child and parent class only
-    public ?string $name = null ; // can be accessed  from anywhere
+    public static ?string $name = null ; // can be accessed  from anywhere
 
 
 
@@ -23,4 +23,27 @@ class User{
         $this->name = $name;
         return $this->getName();
     }
+
+// self and static keyword
+
+## we use self key word to deal with static
+
+public function ins1(){
+    return $this;
+}
+
+public function ins2(){
+    return new self;
+}
+// static is a non-object
+// we defined static to be for the whole class and can not be changed 
+## ==== Static keyword usage ===
+// 1- define a static property and methods
+// 2- bind methods (late static binding)
+// 3- to define a variable that keeps it's current value
+
+public static function dd()  {
+    return User::$name; 
+}
+
 }

@@ -11,4 +11,4 @@ $user = new User ;
 // $user->name;
 // echo $user->name;
 
-var_dump($user);
+var_dump($user->dd());
