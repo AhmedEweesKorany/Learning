@@ -20,6 +20,8 @@ var_dump($employee);
 
 ## ====Abstraction ==== //
 
+
+// interface
 interface Shape{
     // can not include properties
     // every method should be public 
@@ -43,3 +45,30 @@ class Rectangle implements Shape{
         return $width * $height;
     }
 }
+
+
+// abstract class 
+## you can not make instance from absract class
+## you can add props and methods inside abstracct class
+## you can add abstract function in side abstract class to guide childs whcih method should implement (abstract function in abstract class is mostly like interface)
+
+abstract class Polygon{
+    public int $sides;
+    public bool $is3D;
+
+    abstract public function calcArea();
+}
+
+
+class Square extends Polygon{
+    public function calcArea()
+    {
+        return "area calculated";
+
+    }
+}
+
+
+$square = new Square;
+$square->sides = 4;
+echo $square->sides;
