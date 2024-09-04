@@ -60,8 +60,8 @@ abstract class Polygon{
 }
 
 
-class Square extends Polygon{
-    public function calcArea()
+class Square extends Polygon{ // here Polygon appears as square ====> polymorphism
+    public function calcArea() // here calc area appears as area of square ====> polymorphism
     {
         return "area calculated";
 
