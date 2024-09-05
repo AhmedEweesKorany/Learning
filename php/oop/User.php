@@ -46,4 +46,22 @@ public static function dd()  {
     return User::$name; 
 }
 
+
+// Encapsulation example 
+
+private array $props = [
+    "name"=>"ahmedewees",
+    "password"=>"123456789"
+];
+
+public function getProps (){
+    $result = [];
+
+    foreach($this->props as $value){
+        array_push($result,$value);
+    }
+ return $result ;
+
+}
+
 }

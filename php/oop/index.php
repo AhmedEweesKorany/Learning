@@ -5,6 +5,8 @@ require_once 'Employee.php';
 
 $user = new User ;
 
+var_dump($user->getProps());
+
 $employee = new Employee;
 var_dump($employee);
 
