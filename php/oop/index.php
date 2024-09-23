@@ -57,6 +57,9 @@ class Rectangle implements Shape{
 abstract class Polygon{
     public int $sides;
     public bool $is3D;
+    public function getSides(){
+        return $this->sides;
+    }
 
     abstract public function calcArea();
 }
