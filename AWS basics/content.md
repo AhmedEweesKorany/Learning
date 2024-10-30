@@ -31,10 +31,10 @@
 - **Automatically Recover From Failure** : by monitor important matrices closely , use automation to fix issues as soon as they occur which make your system automatically backs when something goes wrong.
 - **Test Recovery Procedures:** by Actively test how system handles failures and use automation to handle different failures scenarios 
 - **Horizontally Scale To Increase Aggregate Workload Availability:** which allow us to spread our workloads across multiple small resources so when any one fails it won't shutdown everything.
-- Stop Guessing Capacity: by monitor how much our systems are being used and adjust our resources accordingly to this measurement. to have resources as much as we need ... no more no less --_--
-- Manage Changes Through Automation: to automate changes of our infrastructure to ensure consistent and smooth running results . 
+- **Stop Guessing Capacity:** by monitor how much our systems are being used and adjust our resources accordingly to this measurement. to have resources as much as we need ... no more no less --_--
+- **Manage Changes Through Automation:** to automate changes of our infrastructure to ensure consistent and smooth running results . 
 
-## summary of what i studied until now : 
+## summary of what i have studied until now : 
 - **Introduction to AWS:** AWS (Amazon Web Services) is a comprehensive cloud computing platform offering a wide range of services for storage, computing, networking, and more.
 - - **What Cloud Computing Is:** Cloud computing is the delivery of computing services over the internet, allowing for on-demand resource access, scalability, and cost efficiency.
 - - **5 Characteristics of Cloud Computing:** Cloud computing is characterized by on-demand self-service, broad network access, multi-tenancy and resource pooling, rapid elasticity and scalability, and measured service.
