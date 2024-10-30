@@ -1,5 +1,15 @@
 <?php
 
+header("Access-Control-Allow-Origin: *"); // Allows any origin
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS"); // Allows specific HTTP methods
+header("Access-Control-Allow-Headers: Content-Type, Authorization"); // Allows headers like Content-Type and Authorization
+header("Access-Control-Allow-Credentials: true"); // Allows credentials like cookies
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+    http_response_code(200);
+    exit();
+}
+
+
 use App\Database\Database;
 use App\Model\Price;
 use App\Model\Product;

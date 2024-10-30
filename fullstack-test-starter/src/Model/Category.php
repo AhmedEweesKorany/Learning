@@ -4,5 +4,5 @@ namespace App\Model;
 
 class Category extends Model{
 
-    protected string $table = 'categories';
+    protected static string $table = 'categories';
 }

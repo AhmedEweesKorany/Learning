@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Model\Order;
+use App\Resolvers\CategoryResolver;
 use App\Resolvers\OrderResolver;
 use App\Resolvers\ProductsResolver;
 use GraphQL\GraphQL as GraphQLBase;
@@ -47,6 +48,15 @@ class GraphQL
                             $product = ProductsResolver::getProductById($args['id']);
 
                             return $product;
+                        },
+                    ],
+                    'Categories' => [
+                        'type' => Type::listOf($categoryType),
+                        'resolve' => function ($rootValue, array $args) {
+
+                            $categories = CategoryResolver::getProducts();
+
+                            return $categories;
                         },
                     ],
 

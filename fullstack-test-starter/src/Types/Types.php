@@ -28,7 +28,13 @@ $priceType = new ObjectType([
     ]
 ]);
 
-
+$categoryType = new ObjectType([
+    'name' => 'Category',
+    'description' => 'A category',
+    'fields' => [
+        'name' => Type::string(),
+    ]
+]);
 
 $productType = new ObjectType([
     'name' => 'Product',

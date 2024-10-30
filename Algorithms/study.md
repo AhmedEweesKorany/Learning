@@ -12,6 +12,7 @@
 ### Input
 - Input is the information that is supplied to the algorithm for processing.
 - Algorithm can have zero or more inputs.
+
 ### Output
 - Output is the information that is produced by the algorithm.
 - Algorithm should have at least 1 output.
