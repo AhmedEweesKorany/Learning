@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b296d8606e1c932f",
+        "id": "2a0ad59a6636ee0d",
         "type": "tabs",
         "children": [
           {
-            "id": "f95d3084237774b8",
+            "id": "923b3b76111de201",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -158,8 +158,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f95d3084237774b8",
+  "active": "923b3b76111de201",
   "lastOpenFiles": [
+    "module1.md",
     "Pasted image 20241104203952.png",
     "Pasted image 20241104204238.png",
     "Pasted image 20241104203728.png"
