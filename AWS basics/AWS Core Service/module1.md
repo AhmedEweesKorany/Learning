@@ -1,6 +1,6 @@
 # Amazon EC2
 
-![[Pasted image 20241104203728.png]]
+![Alt text](/1.png)
 
 # EC 2 Sizing 
 
