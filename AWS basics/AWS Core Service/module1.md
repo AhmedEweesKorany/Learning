@@ -1,6 +1,6 @@
 # Amazon EC2
 
-![Alt text](/1.png)
+![Alt text](./1.png)
 
 # EC 2 Sizing 
 
