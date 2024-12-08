@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "f775e851bf61a5c4",
+    "id": "7d7542821c36d25f",
     "type": "split",
     "children": [
       {
-        "id": "5884a5493b946f19",
+        "id": "c36526f802f96bc5",
         "type": "tabs",
         "children": [
           {
-            "id": "564a23ea5a5b85fa",
+            "id": "558c568887a30676",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Database Fundamental/module 1 questions.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "module 1 questions"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4d441c0c64fe8fc1",
+    "id": "f6e1f5d34176805f",
     "type": "split",
     "children": [
       {
-        "id": "c509b173c8e62855",
+        "id": "596f5c1a703e7804",
         "type": "tabs",
         "children": [
           {
-            "id": "8f681dadc13cce41",
+            "id": "b8337415aa580086",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +47,7 @@
             }
           },
           {
-            "id": "9614e4ec1d042f9d",
+            "id": "789cc91ac845d3f4",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,7 +64,7 @@
             }
           },
           {
-            "id": "dd7419df8cbfe878",
+            "id": "9ccb0ea2373ca376",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,19 +80,20 @@
     "width": 300
   },
   "right": {
-    "id": "b49f271e116719fe",
+    "id": "870c89a699aec47d",
     "type": "split",
     "children": [
       {
-        "id": "5f5ed7f72eace4a3",
+        "id": "10976bfc3b543645",
         "type": "tabs",
         "children": [
           {
-            "id": "883c73de97010516",
+            "id": "472ebf73cdaeb20d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cloud fundamentals/module3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,24 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for module3"
             }
           },
           {
-            "id": "3d52f53c67c4e298",
+            "id": "e09b3cbadfabe263",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AWS-03 Elastic Load Balancing & Auto-Scaling Groups/Module 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Module 1"
             }
           },
           {
-            "id": "ffa05b4a4738231b",
+            "id": "759dcd73d3b4e8b7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,13 +134,15 @@
             }
           },
           {
-            "id": "7332d24efd72e314",
+            "id": "2ec28b0edab628db",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "AWS-03 Elastic Load Balancing & Auto-Scaling Groups/Module 1.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Module 1"
             }
           }
         ]
@@ -154,20 +162,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "564a23ea5a5b85fa",
+  "active": "558c568887a30676",
   "lastOpenFiles": [
-    "Module 2.md",
-    "module1.md",
-    "Module 3.md",
-    "ShardRes.png",
-    "spotInstance.png",
-    "SpotBlock.png",
-    "1.png",
-    "SavingPlans.png",
-    "SchRi.png",
-    "RIs.png",
-    "pricingOptions.png",
-    "Pasted image 20241104204238.png",
-    "Pasted image 20241104203952.png"
+    "Database Fundamental/module 1.md",
+    "Database Fundamental/module 1 questions.md",
+    "Database Fundamental/module 2 questions.md",
+    "Untitled.md",
+    "Database Fundamental/module 2.md",
+    "Amazon S3/module 3.md",
+    "Database Fundamental",
+    "Amazon S3/module 2.md",
+    "Amazon S3/module 1.md",
+    "AWS VPC/Module 1.md",
+    "Amazon S3",
+    "AWS VPC/vpc_component.png",
+    "cloud fundamentals/module3.md",
+    "AWS Core Service/module1.md",
+    "AWS VPC",
+    "AWS-03 Elastic Load Balancing & Auto-Scaling Groups/Module 1.md"
   ]
 }

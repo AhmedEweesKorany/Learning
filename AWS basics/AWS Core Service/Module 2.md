@@ -1,7 +1,7 @@
 ---
 aliases:
 ---
----
+
 
 # **EC2 Sizing & Configuration**
 
