@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Fundamental/module 1 questions.md",
+                "file": "Security and Compilance/module 2 questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "module 1 questions"
+              "title": "module 2 questions"
             }
           }
         ]
@@ -164,11 +164,23 @@
   },
   "active": "558c568887a30676",
   "lastOpenFiles": [
+    "Security and Compilance/module 2.md",
+    "Security and Compilance/module 2 questions.md",
+    "Security and Compilance/module 1 questions.md",
+    "Security and Compilance/module 1.md",
+    "AWS Core Service/Module 2.md",
+    "AWS Core Service/module1.md",
+    "AWS Core Service/ShardRes.png",
+    "AWS Core Service/SavingPlans.png",
+    "AWS Core Service/Pasted image 20241104204238.png",
+    "Database Fundamental/module 2 questions.md",
     "Database Fundamental/module 1.md",
     "Database Fundamental/module 1 questions.md",
-    "Database Fundamental/module 2 questions.md",
-    "Untitled.md",
+    "Database Fundamental/module 3 questions.md",
+    "Security and Compilance",
+    "Database Fundamental/module 3.md",
     "Database Fundamental/module 2.md",
+    "Untitled.md",
     "Amazon S3/module 3.md",
     "Database Fundamental",
     "Amazon S3/module 2.md",
@@ -177,7 +189,6 @@
     "Amazon S3",
     "AWS VPC/vpc_component.png",
     "cloud fundamentals/module3.md",
-    "AWS Core Service/module1.md",
     "AWS VPC",
     "AWS-03 Elastic Load Balancing & Auto-Scaling Groups/Module 1.md"
   ]
