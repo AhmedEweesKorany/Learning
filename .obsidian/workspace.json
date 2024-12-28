@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "7d7542821c36d25f",
+    "id": "414a1571b9a42adf",
     "type": "split",
     "children": [
       {
-        "id": "c36526f802f96bc5",
+        "id": "4aeb12b514acd526",
         "type": "tabs",
         "children": [
           {
-            "id": "558c568887a30676",
+            "id": "48d2a1276b1f2e1c",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f6e1f5d34176805f",
+    "id": "e9c254c2b279af34",
     "type": "split",
     "children": [
       {
-        "id": "596f5c1a703e7804",
+        "id": "2409eb0724363c28",
         "type": "tabs",
         "children": [
           {
-            "id": "b8337415aa580086",
+            "id": "efe1cc1be35376d5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "789cc91ac845d3f4",
+            "id": "609892966180d579",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,7 +60,7 @@
             }
           },
           {
-            "id": "9ccb0ea2373ca376",
+            "id": "929982db930a1c21",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,20 +76,19 @@
     "width": 300
   },
   "right": {
-    "id": "870c89a699aec47d",
+    "id": "28c240500fac7028",
     "type": "split",
     "children": [
       {
-        "id": "10976bfc3b543645",
+        "id": "751abfa79bf22956",
         "type": "tabs",
         "children": [
           {
-            "id": "472ebf73cdaeb20d",
+            "id": "31bdc408207c345c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cloud fundamentals/module3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,25 +98,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for module3"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "e09b3cbadfabe263",
+            "id": "aae8338f7f199dd0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS-03 Elastic Load Balancing & Auto-Scaling Groups/Module 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Module 1"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "759dcd73d3b4e8b7",
+            "id": "4e4a017f88be9815",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,15 +128,13 @@
             }
           },
           {
-            "id": "2ec28b0edab628db",
+            "id": "2e964043a93199d2",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AWS-03 Elastic Load Balancing & Auto-Scaling Groups/Module 1.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Module 1"
+              "title": "Outline"
             }
           }
         ]
@@ -158,34 +154,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "558c568887a30676",
-  "lastOpenFiles": [
-    "Security and Compilance/module 2 questions.md",
-    "Security and Compilance/module 2.md",
-    "Security and Compilance/module 1 questions.md",
-    "Security and Compilance/module 1.md",
-    "AWS Core Service/Module 2.md",
-    "AWS Core Service/module1.md",
-    "AWS Core Service/ShardRes.png",
-    "AWS Core Service/SavingPlans.png",
-    "AWS Core Service/Pasted image 20241104204238.png",
-    "Database Fundamental/module 2 questions.md",
-    "Database Fundamental/module 1.md",
-    "Database Fundamental/module 1 questions.md",
-    "Database Fundamental/module 3 questions.md",
-    "Security and Compilance",
-    "Database Fundamental/module 3.md",
-    "Database Fundamental/module 2.md",
-    "Untitled.md",
-    "Amazon S3/module 3.md",
-    "Database Fundamental",
-    "Amazon S3/module 2.md",
-    "Amazon S3/module 1.md",
-    "AWS VPC/Module 1.md",
-    "Amazon S3",
-    "AWS VPC/vpc_component.png",
-    "cloud fundamentals/module3.md",
-    "AWS VPC",
-    "AWS-03 Elastic Load Balancing & Auto-Scaling Groups/Module 1.md"
-  ]
+  "active": "48d2a1276b1f2e1c",
+  "lastOpenFiles": []
 }
