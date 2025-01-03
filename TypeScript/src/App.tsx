@@ -7,13 +7,14 @@ import React from 'react'
 import Status from './components/Status'
 import Heading from './components/Heading'
 import Layout from './components/Layout'
+import Styles from './components/Styles'
 
 function App() {
 return (<>
 
 <Status status = "loading"/>
 <Layout >
-
+<Styles styles={{display:"flex",fontSize:"20px"}} />
 
 </Layout>
 </>)

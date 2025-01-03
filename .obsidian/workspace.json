@@ -11,10 +11,14 @@
             "id": "48d2a1276b1f2e1c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DSA/grokking algorithms.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "grokking algorithms"
             }
           }
         ]
@@ -155,5 +159,7 @@
     }
   },
   "active": "48d2a1276b1f2e1c",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "DSA/grokking algorithms.md"
+  ]
 }
