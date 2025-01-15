@@ -160,6 +160,9 @@
   },
   "active": "48d2a1276b1f2e1c",
   "lastOpenFiles": [
+    "DSA/selectionSort.png",
+    "DSA/grokking algorithms.md",
+    "DSA/مشكلة.py",
     "Nodejs_training/node_modules/babel-runtime/regenerator/index.js",
     "Nodejs_training/node_modules/babel-runtime/regenerator",
     "Nodejs_training/node_modules/babel-runtime/helpers/_tagged-template-literal-loose.js",
@@ -169,14 +172,11 @@
     "Nodejs_training/node_modules/babel-runtime/helpers/_temporal-ref.js",
     "Nodejs_training/node_modules/babel-runtime/helpers/_to-array.js",
     "Nodejs_training/node_modules/babel-runtime/helpers/_tagged-template-literal.js",
-    "Nodejs_training/node_modules/babel-runtime/helpers/_async-generator-delegate.js",
-    "Nodejs_training/node_modules/babel-runtime/helpers/_sliced-to-array.js",
     "Nodejs_training/node_modules/babel-runtime/README.md",
     "Nodejs_training/node_modules/babel-runtime/node_modules/regenerator-runtime/README.md",
     "Nodejs_training/node_modules/cors/README.md",
     "Nodejs_training/node_modules/cors/HISTORY.md",
     "Nodejs_training/node_modules/cors/CONTRIBUTING.md",
-    "Nodejs_training/node_modules/object-assign/readme.md",
-    "DSA/grokking algorithms.md"
+    "Nodejs_training/node_modules/object-assign/readme.md"
   ]
 }
