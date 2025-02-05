@@ -28,3 +28,6 @@ LinkedList also has many cons like if you want to reach to the 4th element you s
 
 the idea of selection sort is that you loop over the desired array and get the index of the lowest item and pop it and append it in a new array like following code 
 ![](selectionSort.png)
+
+
+# Chapter 3
