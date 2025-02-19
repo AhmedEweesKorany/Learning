@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b24e0e089694550e",
+        "id": "0f86d78d49c2a483",
         "type": "tabs",
         "children": [
           {
-            "id": "990f14fc65a77658",
+            "id": "5344fd0b9b44caf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deploy MERN App/Deploy MERN APP.md",
+                "file": "الاهداف.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deploy MERN APP"
+              "title": "الاهداف"
             }
           }
         ]
@@ -159,12 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "990f14fc65a77658",
+  "active": "5344fd0b9b44caf5",
   "lastOpenFiles": [
+    "InterviewTricks/tricks.md",
+    "InterviewTricks/API questions.md",
+    "الاهداف.md",
+    "Untitled.canvas",
     "Deploy MERN App/Deploy MERN APP.md",
     "Deploy MERN App",
     "DSA/selectionSort.png",
-    "InterviewTricks/tricks.md",
     "DSA/grokking algorithms.md",
     "DSA/مشكلة.py",
     "Nodejs_training/node_modules/babel-runtime/regenerator/index.js",
