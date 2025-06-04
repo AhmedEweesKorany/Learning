@@ -6,11 +6,10 @@ type ChildType = {
 }
 function Layout({children}:ChildType,) {
   return (
-    <div>Layout <br /> 
+    <div>
     
     {children}
 
-    <Button handleClick={(e)=>{console.log(e.target)}}/>
     </div>
   )
 }
