@@ -53,5 +53,25 @@ export class UsersService {
         return user;
     }
 
+    update(id: number, userUpdate: Partial<{ name: string; email: string; role: string }>) {
+        const userIndex = this.users.findIndex(user => user.id === id);
+        if (userIndex === -1) {
+            return { message: 'This User is not found' };
+        }
+        this.users[userIndex] = { ...this.users[userIndex], ...userUpdate };
+        return this.users[userIndex];
+       
+    }
+
+
+    delete(id: number) {
+        const userIndex = this.users.findIndex(user => user.id === id);
+        if (userIndex === -1) {
+            return { message: 'This User is not found' };
+        }
+        const deletedUser = this.users.splice(userIndex, 1);
+        return deletedUser[0];
+    }
+
 
 }

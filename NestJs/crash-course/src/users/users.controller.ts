@@ -20,50 +20,28 @@ export class UsersController {
 
   @Get()
   getUsers(@Query('role') role?:"INTERN" | "ADMIN") {
-   if(role === "INTERN" || role === "ADMIN"){
-     return this.UsersService.users.filter((user) => user.role === role);
-   }
-   return {
-    message:"you are not allowed to see this",
-   };
+   return this.UsersService.findAll(role);
   }
-  @Get('/interns')
-  getUser2() {
-    return {
-      id: '1',
-      name: 'John Doe',
-      email: 'john@example.com',
-    };
-  }
+  
 
   @Get(':id')
   getUserById(@Param('id') id: string) {
-    return {
-      id,
-      name: 'John Doe',
-      email: 'john@example.com',
-    };
+    return this.UsersService.findOne(+id);
   }
 
   @Post()
-  createUser(@Body() user: Record<string, any>) {
-    return {
-      id: user.id,
-      name: user.name,
-    };
+  createUser(@Body() user: {id: number; name: string; email: string; role: string}) {
+    return this.UsersService.create(user)
   }
 
   @Patch(':id')
   update(@Param('id') id: string, @Body() userUpdate: {}) {
-    return {
-      id,
-      ...userUpdate,
-    };
+    return this.UsersService.update(+id, userUpdate);
   }
 
 
   @Delete(':id')
   delete(@Param('id') id: string) {
-    return arr.filter((user) => user.id !== id);
+    return this.UsersService.delete(+id);
   }
 }
