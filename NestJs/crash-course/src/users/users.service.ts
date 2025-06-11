@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Body, Injectable } from '@nestjs/common';
 
 @Injectable()
 export class UsersService {
@@ -44,11 +44,11 @@ export class UsersService {
     }
 
     findOne(id: number) {
-        const user= this.users.find(user => user.id === id);
+        const user= this.users.filter(user => user.id === id);
         return user ? user : { message: 'This User is not found' };
     }
 
-    create(user: { id: number; name: string; email: string; role: string }) {
+    create(@Body() user: { id: number; name: string; email: string; role: string }) {
         this.users.push(user);
         return user;
     }
