@@ -14,7 +14,9 @@ const arr:any = [{
   name: 'John Doe',
   email: 'john@example.com',
 }]
-@Controller('users') // which mean /users
+@Controller({
+  path: 'users', // This will set the base path for all routes in this controller
+}) // which mean /users
 export class UsersController {
   constructor(private readonly UsersService: UsersService) {}
 
@@ -25,7 +27,7 @@ export class UsersController {
   
 
   @Get(':id')
-  getUserById(@Param('id') id: string) {
+  getUserById(@Param('id') id ) {
     return this.UsersService.findOne(+id);
   }
 
