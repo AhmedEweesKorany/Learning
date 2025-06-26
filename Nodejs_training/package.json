@@ -1,6 +1,5 @@
 {
   "name": "nodejs_training",
-  
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,6 +12,7 @@
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "lib-result": "^3.0.0"
   }
 }

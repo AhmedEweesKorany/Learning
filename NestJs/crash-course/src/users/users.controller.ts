@@ -20,6 +20,11 @@ const arr:any = [{
 export class UsersController {
   constructor(private readonly UsersService: UsersService) {}
 
+  /**
+   * Retrieves a list of users, optionally filtered by role
+   * @param role - Optional parameter to filter users by role (INTERN or ADMIN)
+   * @returns An array of users matching the specified role, or all users if no role is provided
+   */
   @Get()
   getUsers(@Query('role') role?:"INTERN" | "ADMIN") {
    return this.UsersService.findAll(role);
