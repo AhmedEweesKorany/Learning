@@ -4,9 +4,12 @@ import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { pgConfig } from 'dbConfig';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
-  imports: [UsersModule,TypeOrmModule.forRoot(pgConfig)],
+  imports: [UsersModule,TypeOrmModule.forRoot(pgConfig),ConfigModule.forRoot({
+      isGlobal: true, // makes it available across the app
+    }),],
   controllers: [AppController],
   providers: [AppService],
 })
