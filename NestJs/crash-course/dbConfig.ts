@@ -6,6 +6,6 @@ export const pgConfig:PostgresConnectionOptions = {
     url: process.env.DATABASE_URL ,
     type: "postgres",
     port:3306,
-    entities:[Property],
+    entities:[__dirname + "/**/*.entity{.ts,.js}"], // Adjust the path to your entities
     synchronize: true, // Set to false in production
-}
+} 
