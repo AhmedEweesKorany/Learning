@@ -8,9 +8,6 @@ import { Repository } from 'typeorm';
 @Injectable()
 export class PropertyService {
 
-  constructor(     @InjectRepository(Property) private propertyRepository: Repository<Property>,
-) {
-  }
   create(createPropertyDto: CreatePropertyDto) {
     return {
       message: 'User created successfully',
