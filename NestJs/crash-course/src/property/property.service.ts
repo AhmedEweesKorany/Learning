@@ -8,11 +8,25 @@ import { Repository } from 'typeorm';
 @Injectable()
 export class PropertyService {
 
-  create(createPropertyDto: CreatePropertyDto) {
+  constructor(
+    @InjectRepository(Property) private propertyRepository: Repository<Property>
+  ) {
+
+  }
+
+  async create(createPropertyDto: CreatePropertyDto) {
+   try {
+     await this.propertyRepository.save(createPropertyDto);
     return {
       message: 'User created successfully',
-      data: createPropertyDto,
+      data: createPropertyDto,  
     };
+   } catch (error) {
+     return { 
+       message: 'Error creating user',
+       error: error.message,
+     };
+   }
   }
 
   findAll() {
