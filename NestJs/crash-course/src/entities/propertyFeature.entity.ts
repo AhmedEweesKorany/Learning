@@ -1,8 +1,9 @@
-import { Entity } from "typeorm";
+import { Entity, PrimaryGeneratedColumn } from "typeorm";
 
 
 @Entity()
 export class PropertyFeature {
+    @PrimaryGeneratedColumn()
     id: number;
     name: string;
     description: string;
