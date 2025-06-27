@@ -1,9 +1,9 @@
 
-import { IsString, IsEmail, MinLength } from 'class-validator';
+import { IsString, IsEmail, MinLength, MaxLength, IsNumber } from 'class-validator';
 
 export class CreatePropertyDto {
   @IsString({ message: 'Name must be a string' })
-  @MinLength(6)
+  @MinLength(3)
   name: string;
 
   @IsString()
@@ -11,6 +11,6 @@ export class CreatePropertyDto {
 
   description: string;
 
-  @MinLength(6)
+  @IsNumber()
   price: number;
-}
+} 
