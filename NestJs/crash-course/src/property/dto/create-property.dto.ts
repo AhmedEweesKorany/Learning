@@ -2,12 +2,15 @@
 import { IsString, IsEmail, MinLength } from 'class-validator';
 
 export class CreatePropertyDto {
-  @IsString()
+  @IsString({ message: 'Name must be a string' })
+  @MinLength(6)
   name: string;
 
-  @IsEmail()
-  email: string;
+  @IsString()
+ @MinLength(20)
+
+  description: string;
 
   @MinLength(6)
-  password: string;
+  price: number;
 }
