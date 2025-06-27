@@ -1,9 +1,16 @@
 import { Injectable } from '@nestjs/common';
 import { CreatePropertyDto } from './dto/create-property.dto';
 import { UpdatePropertyDto } from './dto/update-property.dto';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Property } from 'src/entities/property.entity';
+import { Repository } from 'typeorm';
 
 @Injectable()
 export class PropertyService {
+
+  constructor(     @InjectRepository(Property) private propertyRepository: Repository<Property>,
+) {
+  }
   create(createPropertyDto: CreatePropertyDto) {
     return 'This action adds a new property';
   }
