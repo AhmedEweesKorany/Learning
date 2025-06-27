@@ -12,7 +12,10 @@ export class PropertyService {
 ) {
   }
   create(createPropertyDto: CreatePropertyDto) {
-    return 'This action adds a new property';
+    return {
+      message: 'User created successfully',
+      data: createPropertyDto,
+    };
   }
 
   findAll() {
