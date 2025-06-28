@@ -1,5 +1,6 @@
 import { IsEmail } from "class-validator";
-import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
+import { Property } from "./property.entity";
 
 
 @Entity()
@@ -23,6 +24,9 @@ export class User{
 
     @CreateDateColumn()
     createdAt:Date
-    
+
+
+    @OneToMany(()=>Property,(property)=>property.user, {cascade:true}  )
+    properties: Property[];
 
 }
