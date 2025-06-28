@@ -1,11 +1,30 @@
-import { Entity, PrimaryGeneratedColumn } from "typeorm";
+import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 
 @Entity()
 export class PropertyFeature {
     @PrimaryGeneratedColumn()
     id: number;
-    name: string;
-    description: string;
-    propertyId: number; // Foreign key to the Property entity
-}
+    
+    @Column()
+    bedrooms: number;
+
+    @Column()
+    bathrooms: number;
+
+    @Column()
+    parkingSpots: number;
+
+    @Column()
+    area: number;
+
+    @Column()
+    hasBalcony: boolean;
+
+    @Column()
+    hasGarden: boolean;
+
+    @Column()
+    hasPool: boolean;
+
+    }
