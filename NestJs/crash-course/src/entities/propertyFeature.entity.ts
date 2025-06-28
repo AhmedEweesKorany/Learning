@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { Column, Entity, OneToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Property } from "./property.entity";
 
 
 @Entity()
@@ -26,5 +27,8 @@ export class PropertyFeature {
 
     @Column()
     hasPool: boolean;
+
+    @OneToOne(() => Property, (property) => property.feature)
+    property: Property; // This establishes a one-to-one relationship with the Property entity
 
     }
