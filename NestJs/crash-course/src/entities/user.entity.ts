@@ -1,4 +1,4 @@
-import { IsEmail } from "class-validator";
+import { IsEmail, Length } from "class-validator";
 import { Column, CreateDateColumn, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 import { Property } from "./property.entity";
 
@@ -14,6 +14,7 @@ export class User{
     firstName: string;
 
     @Column()
+    @Length(50)
     lastName: string;
 
     @Column()
