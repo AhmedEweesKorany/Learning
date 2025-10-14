@@ -8,28 +8,35 @@
 
     <style>
 
-        div{
-            width: 100px;
-            height: 100px;
-            background-color: red;
-            margin: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 20px;
-            font-weight: bold;
-            color: white;
-
-        }
-
+   
 
         body{
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
-
+            gap: 20px;
             flex-direction: row;
+            height: 300vh;
+            margin: 0;
+
+        }
+
+        .parent{
+            background-color: green;
+            /* position: relative; */
+            width: 100%;
+            top: 100px;
+            color: white;
+            max-height: 500px;
+        }
+
+        .child{
+            background-color: red;
+            width: 100%;
+
+            padding: 12px;
+            position: absolute;
+
+            bottom: 0;
         }
     </style>
 </head>
@@ -37,10 +44,15 @@
     
 
 
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
+    <div class="parent">
+
+        parent 
+
+        <div class="child">
+            child 
+        </div>
+    </div>
+  
 
 
 </body>

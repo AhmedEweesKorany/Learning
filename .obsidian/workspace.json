@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0f86d78d49c2a483",
+        "id": "b19df85f33d301dd",
         "type": "tabs",
         "children": [
           {
-            "id": "5344fd0b9b44caf5",
+            "id": "460794c553f74047",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "الاهداف.md",
+                "file": "Fundamental of Backend Engineering/Backend communication Design Pattern/Request-Response.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "الاهداف"
+              "title": "Request-Response"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Collection of My learning Content.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Collection of My learning Content"
             }
           },
           {
@@ -137,52 +138,93 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Collection of My learning Content.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Collection of My learning Content"
+            }
+          },
+          {
+            "id": "d94d509f894d04f5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5344fd0b9b44caf5",
+  "active": "460794c553f74047",
   "lastOpenFiles": [
-    "InterviewTricks/tricks.md",
-    "InterviewTricks/API questions.md",
-    "الاهداف.md",
+    "Fundamental of Backend Engineering/Backend communication Design Pattern",
+    "Fundamental of Backend Engineering/Backend communication Design Pattern/Request-Response.md",
+    "Fundamental of Backend Engineering",
+    "c++uni/task1.md",
+    "studying/Untitled.md",
+    "Pasted image 20251012162311.png",
+    "Pasted image 20251012162223.png",
+    "Pasted image 20251012162125.png",
+    "Pasted image 20251012162026.png",
+    "Pasted image 20251012161828.png",
+    "Pasted image 20251012161608.png",
+    "Pasted image 20251012161450.png",
+    "Pasted image 20251012161129.png",
+    "Pasted image 20251012161002.png",
+    "Pasted image 20251012160244.png",
+    "studying/excalidaraw.md",
+    "c++uni",
+    "Excalidraw/Drawing 2025-10-05 19.46.56.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-05 19.55.10.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-05 19.55.11.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-05 19.47.52.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-05 19.48.02.excalidraw.md",
+    "Excalidraw",
+    "studying/Learn Add-ons in python.md",
+    "studying/n8n.md",
+    "studying/Notes.md",
+    "studying/workS.md",
+    "الزلازل في البلاد.md",
+    "البطاقة الشخصية.md",
+    "Dairy.md",
+    "wesal.md",
+    "المهام السنوية.md",
+    "المهام الشهرية.md",
+    "المهام اليومية.md",
+    "مهممم.md",
+    "c task2.md",
+    "Assignment 2.md",
+    "Collection of My learning Content.md",
+    "cyberSecurity AES Explain.md",
     "Untitled.canvas",
-    "Deploy MERN App/Deploy MERN APP.md",
+    "studying",
+    "projects",
     "Deploy MERN App",
-    "DSA/selectionSort.png",
-    "DSA/grokking algorithms.md",
     "DSA/مشكلة.py",
     "Nodejs_training/node_modules/babel-runtime/regenerator/index.js",
     "Nodejs_training/node_modules/babel-runtime/regenerator",
-    "Nodejs_training/node_modules/babel-runtime/helpers/_tagged-template-literal-loose.js",
-    "Nodejs_training/node_modules/babel-runtime/helpers/_typeof.js",
-    "Nodejs_training/node_modules/babel-runtime/helpers/_temporal-undefined.js",
-    "Nodejs_training/node_modules/babel-runtime/helpers/_to-consumable-array.js",
-    "Nodejs_training/node_modules/babel-runtime/helpers/_temporal-ref.js",
-    "Nodejs_training/node_modules/babel-runtime/helpers/_to-array.js",
-    "Nodejs_training/node_modules/babel-runtime/README.md",
-    "Nodejs_training/node_modules/babel-runtime/node_modules/regenerator-runtime/README.md",
-    "Nodejs_training/node_modules/cors/README.md",
-    "Nodejs_training/node_modules/cors/HISTORY.md",
-    "Nodejs_training/node_modules/cors/CONTRIBUTING.md",
-    "Nodejs_training/node_modules/object-assign/readme.md"
+    "Nodejs_training/node_modules/babel-runtime/helpers/_tagged-template-literal-loose.js"
   ]
 }
