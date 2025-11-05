@@ -7,6 +7,7 @@ import { pgConfig } from 'dbConfig';
 import { ConfigModule } from '@nestjs/config';
 import { PropertyModule } from './property/property.module';
 
+
 @Module({
   imports: [UsersModule,TypeOrmModule.forRoot(pgConfig),ConfigModule.forRoot({
       isGlobal: true, // makes it available across the app
