@@ -1,0 +1,17 @@
+# Project: Learning
+## Description
+A repository for learning various technologies including C/C++, Java, Web Development (React, Next.js, Node.js), and more.
+
+## Development Environment
+- OS: Windows
+- Tools: VS Code (indicated by .vscode folder)
+- Java: Eclipse Adoptium JRE 17
+
+## Rules & Patterns
+- Follow standard C/C++ practices for C Lang directory.
+- **Java**: Files must include a class declaration matching the filename (e.g., `public class main` for `main.java`).
+- **Java Types**: Remember that `charAt()` returns a `char`, which is NOT the same as a `String`. Use `==` for `char` comparison, but `.equals()` for `String` comparison.
+- Use VS Code tasks/launch configurations.
+- **Run/Build (C++)**: Press `Ctrl+Shift+B` to build the active file or `F5` to debug.
+- **Manual Run (C++)**: `g++ filename.cpp -o filename.exe ; .\filename.exe` in terminal.
+- **Directory Tips**: For folders with spaces (like `C Lang`), use quotes: `cd "C Lang"`.

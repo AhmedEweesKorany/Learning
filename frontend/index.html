@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Development Phases</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+        .main {
+            display: flex;
+            gap:10px;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .column {
+            background-color: #bfb9b9ff; /* Grey */
+            padding: 20px; /* Padding between column and content */
+            width: 48%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Style enhancement: subtle shadow */
+            color: #fff; /* White text for contrast on grey */
+        }
+        .column h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Style enhancement: text shadow */
+        }
+        .topics-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction:column;
+            justify-content: center;
+            gap: 10px; /* Space between topic squares */
+        }
+        .topic {
+            background-color: #4caf50; /* Green */
+            border-radius: 20px; /* Rounded corners */
+            padding: 10px 15px;
+            margin: 5px;
+            color: #fff;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Style enhancement: shadow for depth */
+            transition: transform 0.2s, box-shadow 0.2s; /* Style enhancement: hover effect */
+        }
+        .topic:hover {
+            transform: scale(1.05); /* Style enhancement: slight zoom on hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="main">
+        <div class="column">
+            <h2>Phase 1</h2>
+            <div class="topics-container">
+                <div class="topic">JavaScript refresh</div>
+                <div class="topic">Node.js</div>
+                <div class="topic">NPM</div>
+                <div class="topic">modules</div>
+                <div class="topic">Build REST APIs with Express</div>
+                <div class="topic">connect to databases (MongoDB/SQL)</div>
+                <div class="topic">understand MVC</div>
+                <div class="topic">implement JWT authentication</div>
+            </div>
+        </div>
+        <div class="column">
+            <h2>Phase 2</h2>
+            <div class="topics-container">
+                <div class="topic">Microservices basics</div>
+                <div class="topic">software architecture patterns</div>
+                <div class="topic">event-driven design</div>
+                <div class="topic">DDD fundamentals</div>
+                <div class="topic">caching strategies</div>
+                <div class="topic">building scalable production-level systems</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
